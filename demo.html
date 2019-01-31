@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="mds.css">
+    <script src="mds.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>labb1</title>
+  </head>
+  <body>
+    <section>
+      <!-- textField -->
+      <div class="bar">
+        <h1>UXLab</h1>
+      </div>
+
+
+      <div class="mds-text-field">
+        <input class="mds-text-field__input"type="text" name="textField" value="" required >
+        <i class="material-icons">cancel</i>
+        <label class="mds-text-field__label" for="textField">Firstname</label>
+        <div class="mds-text-field__border-bottom"></div>
+        <p class="mds-text-field__helpertext">Required*</p>
+      </div>
+
+      <!-- switch -->
+      <div class="mds-switch">
+        <input type="checkbox" id="switch" class="mds-switch__track" name="input">
+        <label for="switch" class="mds-switch__dot"></label>
+      </div>
+      <!--CheckBox-->
+
+      <div class="mds-checkbox">
+        <input type="checkbox" class="mds-checkbox__input" name="" value="">
+        <span class="mds-checkbox__mark"></span>
+      </div>
+
+      <div class="mds-checkbox mds-checkbox--two">
+        <input type="checkbox" class="mds-checkbox__input" name="" value="">
+        <span class="mds-checkbox__mark"></span>
+      </div>
+
+      <!--radioButton-->
+      <div class="mds-radio-btn">
+        <input class="mds-radio-btn__input" type="radio" name="radio" value="">
+        <span class="mds-radio-btn__mark"></span>
+      </div>
+
+      <div class="mds-radio-btn mds-radio-btn--two">
+        <input class="mds-radio-btn__input" type="radio" name="radio" value="">
+        <span class="mds-radio-btn__mark"></span>
+      </div>
+
+      <div class="mds-buttons">
+        <button class="mds-button" id="disable" type="button" name="button">Disable</button>
+        <button class="mds-button mds-button--reset" id="reset" type="button" name="button">Enable</button>
+      </div>
+    </section>
+  </body>
+</html>
